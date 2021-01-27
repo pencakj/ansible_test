@@ -1,0 +1,6 @@
+---
+- name: start role
+  hosts: all
+  become: yes
+  roles:
+    - apache
